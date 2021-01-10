@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Alex from "./Alex";
 import { Button } from "./Button";
-import AlexIcon from "../components/Alex Icon White.png"
+import AlexIcon from "../components/images/Alex Icon White.png"
 
 function Navbar() {
   const [click, setClick] = useState(false);
