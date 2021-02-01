@@ -44,22 +44,17 @@ useEffect(() => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/project" className="nav-links" onClick={closeMobileMenu}>
-                Projects
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/About" className="nav-links" onClick={closeMobileMenu}>
                 About
               </Link>
             </li>
-            <li>
-              <Link to="/contact" className="nav-links-mobile" onClick={closeMobileMenu}>
-                Contact
+            <li className="nav-item">
+              <Link to="/Project" className="nav-links" onClick={closeMobileMenu}>
+                Projects
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
+          {button && <Button buttonStyle='btn--outline'>Resume</Button>}
         </div>
       </nav>
     </>

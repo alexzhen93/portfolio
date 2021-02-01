@@ -21,26 +21,20 @@
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
   display: flex;
   align-items: center;
 }
 .navbar-icon {
+  color: #fff;
   justify-self: start;
-  margin-left: 10px;
+  margin-left: 5px;
   cursor: pointer;
   width: 40px;
   height: 40px;
   display: flex;
   align-items: center;
-}
-
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
 }
 
 .nav-menu {
