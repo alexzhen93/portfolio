@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import { Link, Link as Link1 } from "react-scroll";
+import { Link as Link1 } from "react-scroll";
 // import Video from "./videos/video-3.mp4"
 import Image from "./images/img-home.jpg";
 import "./Hero.css";
