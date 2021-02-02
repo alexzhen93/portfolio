@@ -1,14 +1,15 @@
 import React from "react";
 import Button from "./Button";
-import Video from "./videos/video-3.mp4"
+import { Link as Link1 } from "react-scroll";
+// import Video from "./videos/video-3.mp4"
+import Image from "./images/img-home.jpg";
 import "./Hero.css";
 import "../App.css";
-
 
 function Hero() {
   return (
     <div className="hero-container">
-      <video src={Video} autoPlay loop muted/>
+      <image src={Image} />
       <h1>Welcome</h1>
       <p>to NYC</p>
       <div className="hero-btns">
@@ -17,14 +18,16 @@ function Hero() {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          GET STARTED
-        </Button>
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          My Resume <i className="far fa-file"/>
+          <Link1
+            activeClass="active"
+            to="card"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <h4>GET TO KNOW ME</h4>
+          </Link1>
         </Button>
       </div>
     </div>
