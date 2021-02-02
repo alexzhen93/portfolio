@@ -7,7 +7,7 @@ import Projects from "./images/Projects.png"
 
 function Cards() {
     return (
-        <div className="cards" id="card">
+        <div className="cards">
             <h1>Get To Know Me!</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
