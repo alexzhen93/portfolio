@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Project from "./components/pages/Project";
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/About" exact component={About}/>
           <Route path="/Project" exact component={Project}/>
         </Switch>
+        <Footer/>
       </Router>
     </>
   );
