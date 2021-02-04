@@ -23,10 +23,29 @@ function Hero() {
             to="card"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-80}
             duration={500}
           >
             <h4>GET TO KNOW ME</h4>
+          </Link1>
+        </Button>
+        <Button
+          className="btns"
+          buttonStyle="btn--primary"
+          buttonSize="btn--large"
+        >
+          <Link1
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <h4>
+              CONTACT ME
+              <i className="fas fa-address-book" />
+            </h4>
           </Link1>
         </Button>
       </div>
