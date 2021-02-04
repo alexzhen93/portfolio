@@ -33,7 +33,7 @@ function Footer() {
               icon="fab fa-linkedin"
             />
             <FooterIcon
-              href="mailto:Jiapengzhen@outlook.com"
+              href="mailto:jiapengzhen@outlook.com"
               label="E-Mail"
               icon="far fa-envelope"
             />
