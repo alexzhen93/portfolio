@@ -15,8 +15,9 @@ function Hero() {
       <h1>Hi, my name is Alex</h1>
       <p>
         <Typewritter
-          onInit={(Typewritter) => {
-            Typewritter.changeDelay(85)
+          onInit={(typewritter) => {
+            typewritter
+              .changeDelay(85)
               .typeString("I'm an aspiring software engineer")
               .pauseFor(500)
               .deleteChars(17)
