@@ -66,6 +66,10 @@
   transition: all 0.2s ease-out;
 }
 
+.active {
+  border-bottom: 4px solid #fff;
+}
+
 .fa-bars {
   color: #fff;
 }
