@@ -2,7 +2,7 @@ import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css'
 import Alex from "./images/Alex.png"
-import Projects from "./images/Projects.png"
+import Projects from "./images/Line.png"
 
 
 function Cards() {
