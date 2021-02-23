@@ -1,13 +1,14 @@
 import React from "react";
+import { Link as Link1 } from "react-scroll";
 import "./Footer.css";
 import FooterIcon from "./FooterIcon";
+import Rocket from "./images/Rocket.png";
 
 function Footer() {
   return (
     <div className="footer-container" id="contact">
       <section className="footer-sub">
-        <p className="footer-heading">Feel free to contact me for anything.</p>
-        <p className="footer-text">Or just simply say "Hi!"</p>
+        <p className="footer-text">Feel free to contact me or just simply say "Hi!"</p>
       </section>
       <section className="social-media">
         <div className="social-media-wrap">
@@ -39,6 +40,18 @@ function Footer() {
             />
           </div>
         </div>
+        <Link1
+          className="rocket-to-top"
+          activeClass="active-top"
+          to="top"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <img className="rocket" src={Rocket} />
+        </Link1>
+        <small className="website-rights">Go to top</small>
         <small className="website-rights">Alex Zhen © 2021</small>
       </section>
     </div>

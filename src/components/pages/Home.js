@@ -5,10 +5,10 @@ import Cards from '../Cards'
 
 function Home() {
     return(
-        <>
+        <div id="top">
         <Hero/>
         <Cards/>
-        </>
+        </div>
     )
     
 }

@@ -3,7 +3,7 @@ import Button from "./Button";
 import { Link as Link1 } from "react-scroll";
 // import Video from "./videos/video-3.mp4"
 import Typewritter from "typewriter-effect";
-import Image from "./images/img-home.jpg";
+import Image from "./images/img-home.png";
 import "./Hero.css";
 import "../App.css";
 
@@ -18,9 +18,9 @@ function Hero() {
           onInit={(typewritter) => {
             typewritter
               .changeDelay(85)
-              .typeString("I'm an aspiring software engineer")
+              .typeString("I'm an aspiring software engineer and")
               .pauseFor(500)
-              .deleteChars(17)
+              .deleteChars(21)
               .typeString("web developer")
               .pauseFor(500)
               .deleteAll()
@@ -36,7 +36,6 @@ function Hero() {
           buttonSize="btn--large"
         >
           <Link1
-            activeClass="active"
             to="card"
             spy={true}
             smooth={true}
@@ -52,7 +51,6 @@ function Hero() {
           buttonSize="btn--large"
         >
           <Link1
-            activeClass="active"
             to="contact"
             spy={true}
             smooth={true}

@@ -4,6 +4,7 @@ import "./Navbar.css";
 import Alex from "./Alex";
 import { Button } from "./Button";
 import AlexIcon from "../components/images/Alex Icon White.png";
+import Resume from "./pages/Resume.pdf";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -39,22 +40,43 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <NavLink exact to="/" className="nav-links" activeClassName="active" onClick={closeMobileMenu}>
+              <NavLink
+                exact
+                to="/"
+                className="nav-links"
+                activeClassName="active"
+                onClick={closeMobileMenu}
+              >
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/About" className="nav-links" activeClassName="active" onClick={closeMobileMenu}>
+              <NavLink
+                to="/About"
+                className="nav-links"
+                activeClassName="active"
+                onClick={closeMobileMenu}
+              >
                 About
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/Project" className="nav-links" activeClassName="active" onClick={closeMobileMenu}>
+              <NavLink
+                to="/Project"
+                className="nav-links"
+                activeClassName="active"
+                onClick={closeMobileMenu}
+              >
                 Projects
               </NavLink>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">Resume</Button>}
+
+          {button && (
+            <Link to={Resume} target="_blank">
+              <Button buttonStyle="btn--outline">Resume</Button>
+            </Link>
+          )}
         </div>
       </nav>
     </>
