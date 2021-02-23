@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "./Button";
 import { Link as Link1 } from "react-scroll";
-// import Video from "./videos/video-3.mp4"
 import Typewritter from "typewriter-effect";
 import Image from "./images/img-home.png";
 import "./Hero.css";

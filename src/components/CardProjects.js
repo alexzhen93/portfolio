@@ -4,7 +4,6 @@ import CardProjectItem from "./CardProjectItem";
 import azProject from "./images/azProject.png";
 import FindLoveNow from "./images/FindLoveNow.png";
 import SplitIt from "./images/Split-It.png";
-import Alex from "./images/Alex.png";
 
 function CardProjects() {
   return (
@@ -37,7 +36,7 @@ function CardProjects() {
               `}
               label="FindLoveNow"
               path="fas fa-external-link-alt"
-              href="http://findlovenow.xyz"
+              href="https://findlovenow.xyz"
               href2="https://github.com/Fall-2020-Website-Design/FindLoveNow"
             >
               <div className="skill__info">
