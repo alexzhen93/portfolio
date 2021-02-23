@@ -38,4 +38,5 @@
     background: white;
     color: #242424;
     transition: all 0.3s ease-out;
+    transform: scale(1.06);
 }

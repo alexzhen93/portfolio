@@ -1,13 +1,13 @@
-import React from 'react'
-import '../../App.css'
-
+import React from "react";
+import "../../App.css";
+import CardProjects from "../CardProjects";
 
 function Project() {
-    return (
-        <>
-           <h1>Project</h1> 
-        </>
-    )
+  return (
+    <div id="top">
+      <CardProjects />
+    </div>
+  );
 }
 
-export default Project
+export default Project;
