@@ -4,7 +4,7 @@ import '../../App.css'
 
 function About() {
     return (
-        <div id="top">
+        <div id="top page">
           <h1>About</h1>
         </div>
     )

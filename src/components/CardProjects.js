@@ -3,7 +3,9 @@ import "./Cards.css";
 import CardProjectItem from "./CardProjectItem";
 import azProject from "./images/azProject.png";
 import FindLoveNow from "./images/FindLoveNow.png";
+import Form from "./images/Form.png";
 import SplitIt from "./images/Split-It.png";
+import WeatherApp from "./images/Weather-App.png";
 
 function CardProjects() {
   return (
@@ -14,16 +16,16 @@ function CardProjects() {
           <ul className="projects__items">
             <CardProjectItem
               src={azProject}
-              text={`Personal website 
-              \nA site build with React to showcase all my personal projects, expressing my passion
-              \non learning new technology and connecting with people`}
+              title="Personal website"
+              text={`A site build with React,  JavaScript,  HTML,  and CSS to showcase all my projects, expressing my passion
+              \nfor learning new technology and connecting with people.`}
               label="Portfolio"
-              //   href="http://findlovenow.xyz"
-              href2="https://github.com/alexzhen93/Portfolio"
+              github="https://github.com/alexzhen93/Portfolio"
             >
               <div className="skill__info">
                 <span className="skill react">React</span>
                 <span className="skill js">JavaScript</span>
+                <span className="skill html">HTML</span>
                 <span className="skill css">CSS</span>
               </div>
             </CardProjectItem>
@@ -31,49 +33,84 @@ function CardProjects() {
           <ul className="projects__items">
             <CardProjectItem
               src={FindLoveNow}
-              text={`Hi, my name is Alex.
-              \nLearn more detail about me
-              `}
+              title="FindLoveNow"
+              text={`A collaborative group project to create a dating web application for users to find matches based on user
+              \nset locations. FindLoveNow allows users to upload and delete images, customize their matching preferences
+              \nor use a blind match system for a blind date, and users able to chat and video call with match users.`}
               label="FindLoveNow"
               path="fas fa-external-link-alt"
               href="https://findlovenow.xyz"
-              href2="https://github.com/Fall-2020-Website-Design/FindLoveNow"
+              github="https://github.com/Fall-2020-Website-Design/FindLoveNow"
             >
               <div className="skill__info">
                 <span className="skill react">React</span>
                 <span className="skill node__js">Node.js</span>
                 <span className="skill B">Bootstrap</span>
                 <span className="skill css">CSS</span>
+                <span className="skill seq">Sequelize</span>
                 <span className="skill pg">PostgreSQL</span>
+                <span className="skill aws">AWS</span>
+              </div>
+            </CardProjectItem>
+          </ul>
+          <ul className="projects__items">
+            <CardProjectItem
+              src={Form}
+              title="Checkout form"
+              text={`A simple and powerful checkout form using Bootstrap and CSS with front-end validation
+              \nintegrated is both web and mobile-friendly.`}
+              github="https://github.com/alexzhen93/Form"
+            >
+              <div className="skill__info">
+                <span className="skill B">Bootstrap</span>
+                <span className="skill css">CSS</span>
               </div>
             </CardProjectItem>
           </ul>
           <ul className="projects__items">
             <CardProjectItem
               src={SplitIt}
-              text={`A glance of my projects.
-              \nLearn more detail about the projects
-              `}
+              title="Split-It"
+              text={`A group collaborative project to create a bill splitting web application that allows users to 
+              \nsplit bills using their smartphone camera or by inputting the information necessary. The web app also 
+              \nuses third-party API such as Google Map API and Tesseract OCR API,  a machine learning optical character
+              \nrecognition engine. Split-It also has other social functions like adding friends,  depositing virtual 
+              \ncurrency (dummy currency),  and customizing personal settings.`}
+              path="fas fa-external-link-alt"
               href="https://app-split-it.herokuapp.com"
-            />
+              github="https://github.com/Skill-Knowledge-Technology/Split-It"
+              >
+              <div className="skill__info">
+                <span className="skill react">React</span>
+                <span className="skill node__js">Node.js</span>
+                <span className="skill mt">Materialize</span>
+                <span className="skill css">CSS</span>
+                <span className="skill seq">Sequelize</span>
+                <span className="skill pg">PostgreSQL</span>
+                <span className="skill hk">Heroku</span>
+              </div>
+            </CardProjectItem>
           </ul>
           <ul className="projects__items">
             <CardProjectItem
-              src={SplitIt}
-              text={`A glance of my projects. 
-                        \nLearn more detail about the projects
-                        `}
-              href="https://app-split-it.herokuapp.com"
-            />
-          </ul>
-          <ul className="projects__items">
-            <CardProjectItem
-              src={SplitIt}
-              text={`A glance of my projects. 
-                        \nLearn more detail about the projects
-                        `}
+              src={WeatherApp}
+              title="Weather-App"
+              text={`A simple weather application that is both web and mobile-friendly, use to check all the information about
+              \nthe weather. The site uses a third-party API to analyze and forecast the weather by zip-code,  city,  or State.`}
+              path="fas fa-external-link-alt"
               href="https://weather-app-az.herokuapp.com"
-            />
+              github="https://github.com/alexzhen93/Weather-App"
+              >
+              <div className="skill__info">
+                <span className="skill react">React</span>
+                <span className="skill node__js">Node.js</span>
+                <span className="skill B">Bootstrap</span>
+                <span className="skill css">CSS</span>
+                <span className="skill seq">Sequelize</span>
+                <span className="skill pg">PostgreSQL</span>
+                <span className="skill hk">Heroku</span>
+              </div>
+            </CardProjectItem>
           </ul>
         </div>
       </div>
