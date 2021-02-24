@@ -9,10 +9,9 @@ import "../App.css";
 function Hero() {
   return (
     <div className="hero-container">
-      <image src={Image} />
-      {/* <h1>Welcome</h1> */}
+      <img className="img-hero" src={Image} />
       <h1>Hi, my name is Alex</h1>
-      <p>
+      <div className="text">
         <Typewritter
           onInit={(typewritter) => {
             typewritter
@@ -27,7 +26,7 @@ function Hero() {
               .start();
           }}
         />
-      </p>
+      </div>
       <div className="hero-btns">
         <Button
           className="btns"

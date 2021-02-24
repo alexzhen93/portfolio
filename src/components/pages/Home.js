@@ -5,7 +5,7 @@ import Cards from '../Cards'
 
 function Home() {
     return(
-        <div id="top">
+        <div id="top page">
         <Hero/>
         <Cards/>
         </div>

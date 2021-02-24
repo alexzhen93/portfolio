@@ -133,6 +133,12 @@ h1 {
   white-space: pre-wrap;
 }
 
+.projects__title {
+  color: #252e48;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
 .projects__item__text {
   color: #252e48;
   white-space: pre-wrap;
@@ -159,6 +165,7 @@ h1 {
 
 .skill__info {
   padding: 0 20px 10px 20px;
+  margin-top: 10px;
 }
 
 .skill {
@@ -190,12 +197,32 @@ h1 {
   background-color: #7e5bb3;
 }
 
+.html {
+  background-color: #F06529;
+}
+
+.mt {
+  background-color: #EF9A9A;
+}
+
 .css {
   background-color: #336cf0;
 }
 
+.seq {
+  background-color: #144fd8;
+}
+
 .pg {
   background-color: #558fbe;
+}
+
+.aws {
+  background-color: #EFBD69;
+}
+
+.hk {
+  background-color: #6762A6;
 }
 
 @media only screen and (min-width: 1200px) {

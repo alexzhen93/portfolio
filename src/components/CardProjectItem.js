@@ -16,11 +16,12 @@ function CardProjectItem(props) {
             <a className="projects-icon" href={props.href} target="_blank">
               <i className={props.path} />
             </a>
-            <a className="projects-icon" href={props.href2} target="_blank">
+            <a className="projects-icon" href={props.github} target="_blank">
               <i className="fab fa-github-square" />
             </a>
           </div>
           <div className="projects__item__info">
+            <h4 className="projects__title">{props.title}</h4>
             <p className="projects__item__text">{props.text}</p>
           </div>
           {props.children}
