@@ -7,6 +7,7 @@ function FooterIcon(props) {
         className="social-icon-link"
         href={props.href}
         target="_blank"
+        rel="noreferrer noopener"
         aria-label={props.label}
       >
         <i className={props.icon} />

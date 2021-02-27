@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import "./App.css";
@@ -10,14 +11,14 @@ import PageNavegationListener from "./components/PageNavegationListener";
 
 function App() {
   return (
-    <>
+    <div>
       <Router>
         <PageNavegationListener />
         <Navbar />
         <Route
           render={({ location }) => (
             <TransitionGroup>
-              <CSSTransition key={location.key} timeout={450} classNames="fade">
+              <CSSTransition key={location.key} timeout={400} classNames="fade">
                 <Switch location={location}>
                   <Route path="/" exact component={Home} />
                   <Route path="/About" exact component={About} />
@@ -29,7 +30,7 @@ function App() {
         />
         <Footer />
       </Router>
-    </>
+    </div>
   );
 }
 

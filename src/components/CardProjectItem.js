@@ -13,10 +13,10 @@ function CardProjectItem(props) {
             />
           </div>
           <div className="projects-links">
-            <a className="projects-icon" href={props.href} target="_blank">
+            <a className="projects-icon" href={props.href} target="_blank" rel="noreferrer noopener">
               <i className={props.path} />
             </a>
-            <a className="projects-icon" href={props.github} target="_blank">
+            <a className="projects-icon" href={props.github} target="_blank" rel="noreferrer noopener">
               <i className="fab fa-github-square" />
             </a>
           </div>
