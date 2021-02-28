@@ -240,7 +240,7 @@
     transform: skewX(20deg);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 #moon {
@@ -306,7 +306,7 @@
     transform: translate(0, 20px) scale(1.1);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 #monkey-eye-l {
@@ -386,7 +386,7 @@
     transform: rotateZ(-10deg);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 .lesshat-selector {
@@ -551,7 +551,7 @@
     transform: rotateX(0deg);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 .lesshat-selector {
@@ -682,7 +682,7 @@
     transform: rotateX(0deg);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 #star1 {
@@ -777,7 +777,7 @@
     transform: scale(0.5) skewX(15deg) rotateZ(720deg);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 .lesshat-selector {
@@ -844,7 +844,7 @@
     transform: scale(0.5) skewX(15deg) rotateZ(720deg);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 .lesshat-selector {
@@ -911,7 +911,7 @@
     transform: scale(0.5) skewX(15deg) rotateZ(720deg);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 .lesshat-selector {
@@ -978,7 +978,7 @@
     transform: scale(0.5) skewX(15deg) rotateZ(720deg);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 .lesshat-selector {
@@ -1032,7 +1032,7 @@
     opacity: 0;
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 .lesshat-selector {
@@ -1090,7 +1090,7 @@
     opacity: 0;
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 .lesshat-selector {
@@ -1148,7 +1148,7 @@
     opacity: 0;
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 .lesshat-selector {
@@ -1206,7 +1206,7 @@
     opacity: 0;
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 #sword-path {
@@ -1283,7 +1283,7 @@
     transform: rotate(-40deg);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 #tetris-path {
@@ -1386,7 +1386,7 @@
     transform: rotateZ(360deg);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 .lesshat-selector {
@@ -1445,7 +1445,7 @@
     transform: translate(0px, 0px) scale(0.9);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
 #triforce {
@@ -1511,6 +1511,6 @@
     transform: translate(0px, 0px) scale(0.9);
   }
 }
-[not-existing] {
+.not-existing {
   zoom: 1;
 }
