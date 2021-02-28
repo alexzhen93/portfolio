@@ -160,7 +160,7 @@
   -o-animation: cloud 9s infinite ease-in-out;
   animation: cloud 9s infinite ease-in-out;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes cloud {
@@ -250,7 +250,7 @@ lesshat-selector {
   -o-animation: moon-float 6s infinite ease-in-out;
   animation: moon-float 6s infinite ease-in-out;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes moon-float {
@@ -330,7 +330,7 @@ lesshat-selector {
   -o-animation: monkey-arm 4s infinite ease-in-out;
   animation: monkey-arm 4s infinite ease-in-out;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes monkey-arm {
@@ -389,7 +389,7 @@ lesshat-selector {
 [not-existing] {
   zoom: 1;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes blink-l {
@@ -554,7 +554,7 @@ lesshat-selector {
 [not-existing] {
   zoom: 1;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes blink-r {
@@ -717,7 +717,7 @@ lesshat-selector {
   -o-animation: star4 12s infinite linear, star4-fade 12s infinite ease-in-out;
   animation: star4 12s infinite linear, star4-fade 12s infinite ease-in-out;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes star1 {
@@ -780,7 +780,7 @@ lesshat-selector {
 [not-existing] {
   zoom: 1;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes star2 {
@@ -847,7 +847,7 @@ lesshat-selector {
 [not-existing] {
   zoom: 1;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes star3 {
@@ -914,7 +914,7 @@ lesshat-selector {
 [not-existing] {
   zoom: 1;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes star4 {
@@ -981,7 +981,7 @@ lesshat-selector {
 [not-existing] {
   zoom: 1;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes star1-fade {
@@ -1035,7 +1035,7 @@ lesshat-selector {
 [not-existing] {
   zoom: 1;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes star2-fade {
@@ -1093,7 +1093,7 @@ lesshat-selector {
 [not-existing] {
   zoom: 1;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes star3-fade {
@@ -1151,7 +1151,7 @@ lesshat-selector {
 [not-existing] {
   zoom: 1;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes star4-fade {
@@ -1223,7 +1223,7 @@ lesshat-selector {
   -o-animation: sword 4s infinite ease-out;
   animation: sword 4s infinite ease-out;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes sword {
@@ -1300,7 +1300,7 @@ lesshat-selector {
   -o-animation: rotate 10s steps(1) infinite alternate;
   animation: rotate 10s steps(1) infinite alternate;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes rotate {
@@ -1389,7 +1389,7 @@ lesshat-selector {
 [not-existing] {
   zoom: 1;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes tetris-float {
@@ -1455,7 +1455,7 @@ lesshat-selector {
   -o-animation: triforce-float 3s infinite ease-in-out;
   animation: triforce-float 3s infinite ease-in-out;
 }
-lesshat-selector {
+.lesshat-selector {
   -lh-property: 0;
 }
 @-webkit-keyframes triforce-float {

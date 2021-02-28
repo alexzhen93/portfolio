@@ -22,8 +22,8 @@ function App() {
               <CSSTransition key={location.key} timeout={400} classNames="fade">
                 <Switch location={location}>
                   <Route path="/" exact component={Home} />
-                  <Route path="/About" exact component={About} />
-                  <Route path="/Project" exact component={Project} />
+                  <Route path="/About" component={About} />
+                  <Route path="/Project" component={Project} />
                   <Route path="*" component={NotFound} />
                 </Switch>
               </CSSTransition>
