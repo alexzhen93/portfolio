@@ -14,7 +14,7 @@
 }
 
 .NotFound > p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .error-btns {
@@ -28,10 +28,10 @@
 }
 
 .me404 {
-    position:relative;
-    margin-left: auto;
-    margin-top: -4%;
-    width: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-top: -4%;
+  width: 100%;
 }
 
 .st0 {
@@ -160,9 +160,7 @@
   -o-animation: cloud 9s infinite ease-in-out;
   animation: cloud 9s infinite ease-in-out;
 }
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes cloud {
   0% {
     opacity: 0.3;
@@ -240,9 +238,7 @@
     transform: skewX(20deg);
   }
 }
-.not-existing {
-  zoom: 1;
-}
+
 #moon {
   transform-origin: 640px 81px;
   -webkit-animation: moon-float 6s infinite ease-in-out;
@@ -250,9 +246,7 @@
   -o-animation: moon-float 6s infinite ease-in-out;
   animation: moon-float 6s infinite ease-in-out;
 }
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes moon-float {
   0% {
     -webkit-transform: translate(0, 20px) scale(1.1);
@@ -306,9 +300,7 @@
     transform: translate(0, 20px) scale(1.1);
   }
 }
-.not-existing {
-  zoom: 1;
-}
+
 #monkey-eye-l {
   transform-origin: 191px 257px;
   -webkit-animation: blink-l 12s infinite ease-in-out;
@@ -330,9 +322,7 @@
   -o-animation: monkey-arm 4s infinite ease-in-out;
   animation: monkey-arm 4s infinite ease-in-out;
 }
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes monkey-arm {
   0% {
     -webkit-transform: rotateZ(-10deg);
@@ -386,12 +376,7 @@
     transform: rotateZ(-10deg);
   }
 }
-.not-existing {
-  zoom: 1;
-}
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes blink-l {
   0% {
     -webkit-transform: rotateX(0deg);
@@ -551,12 +536,7 @@
     transform: rotateX(0deg);
   }
 }
-.not-existing {
-  zoom: 1;
-}
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes blink-r {
   0% {
     -webkit-transform: rotateX(0deg);
@@ -682,9 +662,7 @@
     transform: rotateX(0deg);
   }
 }
-.not-existing {
-  zoom: 1;
-}
+
 #star1 {
   transform-origin: 643px 338px;
   -webkit-animation: star1 12s infinite linear,
@@ -717,9 +695,7 @@
   -o-animation: star4 12s infinite linear, star4-fade 12s infinite ease-in-out;
   animation: star4 12s infinite linear, star4-fade 12s infinite ease-in-out;
 }
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes star1 {
   0% {
     -webkit-transform: scale(0.5) skewX(15deg) rotateZ(0deg);
@@ -777,12 +753,7 @@
     transform: scale(0.5) skewX(15deg) rotateZ(720deg);
   }
 }
-.not-existing {
-  zoom: 1;
-}
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes star2 {
   0%,
   15% {
@@ -844,12 +815,7 @@
     transform: scale(0.5) skewX(15deg) rotateZ(720deg);
   }
 }
-.not-existing {
-  zoom: 1;
-}
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes star3 {
   0%,
   30% {
@@ -911,12 +877,7 @@
     transform: scale(0.5) skewX(15deg) rotateZ(720deg);
   }
 }
-.not-existing {
-  zoom: 1;
-}
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes star4 {
   0%,
   45% {
@@ -978,12 +939,7 @@
     transform: scale(0.5) skewX(15deg) rotateZ(720deg);
   }
 }
-.not-existing {
-  zoom: 1;
-}
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes star1-fade {
   0% {
     opacity: 0;
@@ -1032,12 +988,7 @@
     opacity: 0;
   }
 }
-.not-existing {
-  zoom: 1;
-}
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes star2-fade {
   0%,
   15% {
@@ -1090,12 +1041,7 @@
     opacity: 0;
   }
 }
-.not-existing {
-  zoom: 1;
-}
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes star3-fade {
   0%,
   30% {
@@ -1148,12 +1094,7 @@
     opacity: 0;
   }
 }
-.not-existing {
-  zoom: 1;
-}
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes star4-fade {
   0%,
   45% {
@@ -1206,9 +1147,7 @@
     opacity: 0;
   }
 }
-.not-existing {
-  zoom: 1;
-}
+
 #sword-path {
   transform-origin: 458px 206px;
   -webkit-animation: tetris-float 3s infinite ease-in-out;
@@ -1223,9 +1162,7 @@
   -o-animation: sword 4s infinite ease-out;
   animation: sword 4s infinite ease-out;
 }
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes sword {
   0%,
   15% {
@@ -1283,9 +1220,7 @@
     transform: rotate(-40deg);
   }
 }
-.not-existing {
-  zoom: 1;
-}
+
 #tetris-path {
   transform-origin: 538px 374px;
   -webkit-animation: tetris-float 5s infinite ease-in-out;
@@ -1300,9 +1235,7 @@
   -o-animation: rotate 10s steps(1) infinite alternate;
   animation: rotate 10s steps(1) infinite alternate;
 }
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes rotate {
   0% {
     -webkit-transform: rotateZ(0deg);
@@ -1386,12 +1319,7 @@
     transform: rotateZ(360deg);
   }
 }
-.not-existing {
-  zoom: 1;
-}
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes tetris-float {
   0% {
     -webkit-transform: translate(0px, 0px) scale(0.9);
@@ -1445,9 +1373,7 @@
     transform: translate(0px, 0px) scale(0.9);
   }
 }
-.not-existing {
-  zoom: 1;
-}
+
 #triforce {
   transform-origin: 175px 91px;
   -webkit-animation: triforce-float 3s infinite ease-in-out;
@@ -1455,9 +1381,7 @@
   -o-animation: triforce-float 3s infinite ease-in-out;
   animation: triforce-float 3s infinite ease-in-out;
 }
-.lesshat-selector {
-  -lh-property: 0;
-}
+
 @-webkit-keyframes triforce-float {
   0% {
     -webkit-transform: translate(0px, 0px) scale(0.9);
@@ -1510,7 +1434,4 @@
     -ms-transform: translate(0px, 0px) scale(0.9);
     transform: translate(0px, 0px) scale(0.9);
   }
-}
-.not-existing {
-  zoom: 1;
 }

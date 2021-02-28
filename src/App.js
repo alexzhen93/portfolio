@@ -1,5 +1,4 @@
 import Navbar from "./components/Navbar";
-import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import "./App.css";
