@@ -73,7 +73,7 @@ function Navbar() {
           </ul>
 
           {button && (
-            <Link to={Resume} target="_blank">
+            <Link to={Resume} target="_blank" rel="noreferrer noopener">
               <Button buttonStyle="btn--outline">Resume</Button>
             </Link>
           )}

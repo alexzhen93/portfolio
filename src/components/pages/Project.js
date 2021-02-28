@@ -4,7 +4,7 @@ import CardProjects from "../CardProjects";
 
 function Project() {
   return (
-    <div id="top page">
+    <div id="top">
       <CardProjects />
     </div>
   );
