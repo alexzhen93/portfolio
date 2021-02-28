@@ -6,7 +6,16 @@ import "./NotFound.css";
 function NotFound() {
   return (
     <div className="NotFound" id="top">
-      <svg className="me404" viewBox="0 0 1000 480">
+      <h4>Oops! Page not found</h4>
+      <p>It look like you're trying to access a page that doesn't exist</p>
+      <div className="error-btns">
+        <Button className="btn" buttonStyle="btn--dark" buttonSize="btn--large">
+          <Link to="/" className="error-link">
+            <h4>Back To Home</h4>
+          </Link>
+        </Button>
+      </div>
+      <svg id="svg404" className="me404" viewBox="0 0 1000 480">
         <path
           id="cloud"
           className="st0"
@@ -311,16 +320,6 @@ function NotFound() {
           </g>
         </g>
       </svg>
-      <div className="error-btns">
-        <Button
-          buttonStyle="btn--dark"
-          buttonSize="btn--large"
-        >
-          <Link to="/" className="error-link">
-            <h4>Back To Home</h4>
-          </Link>
-        </Button>
-      </div>
     </div>
   );
 }
