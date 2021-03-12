@@ -17,8 +17,8 @@ function CardProjects() {
             <CardProjectItem
               src={azProject}
               title="Personal website"
-              text={`A site build with React,  JavaScript,  HTML,  and CSS to showcase all my projects,
-              \nexpressing my passion for learning new technology and connecting with people.`}
+              text={`A site built with React,  JavaScript,  HTML,  and CSS to showcase all my projects,
+              \nexpressing my passion for learning new technologies and connecting with people.`}
               label="Portfolio"
               github="https://github.com/alexzhen93/Portfolio"
             >
@@ -35,12 +35,12 @@ function CardProjects() {
               src={FindLoveNow}
               title="FindLoveNow"
               text={`A collaborative group project to create a dating web application for users to find 
-              \nmatches based on user set locations. FindLoveNow allows users to upload and delete  
+              \nmatches based on user's set location. FindLoveNow allows users to upload and delete  
               \nimages,  customize their matching preferences or use a blind match system for a blind
               \ndate,  and users able to chat and video call with match users.`}
               label="FindLoveNow"
               path="fas fa-external-link-alt"
-              href="https://findlovenow.xyz"
+              href="http://findlovenow.xyz"
               github="https://github.com/Fall-2020-Website-Design/FindLoveNow"
             >
               <div className="skill__info">
