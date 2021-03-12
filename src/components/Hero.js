@@ -9,7 +9,7 @@ import "../App.css";
 function Hero() {
   return (
     <div className="hero-container">
-      <img className="hero-image" src={Image} />
+      <img className="hero-image" src={Image} alt="nyc"/>
       <h1>Hi, my name is Alex</h1>
       <div className="text">
         <Typewritter

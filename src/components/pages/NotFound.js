@@ -7,7 +7,7 @@ function NotFound() {
   return (
     <div className="NotFound" id="top">
       <h4>Oops! Page not found</h4>
-      <p>It look like you're trying to access a page that doesn't exist</p>
+      <p>It looks like you're trying to access a page that doesn't exist</p>
       <div className="error-btns">
         <Button className="btn" buttonStyle="btn--dark" buttonSize="btn--large">
           <Link to="/" className="error-link">

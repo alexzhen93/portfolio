@@ -123,7 +123,7 @@ h1 {
 }
 
 .projects__item__info {
-  padding: 0 20px 10px 20px
+  padding: 0 20px 10px 20px;
 }
 
 .cards__item__text {
@@ -147,20 +147,20 @@ h1 {
 .projects-links {
   display: flex;
   justify-content: flex-end;
-  padding: 0 20px 10px 20px
+  padding: 0 20px 10px 20px;
 }
 
 .projects-icon {
   -webkit-text-stroke: 1px #000;
-  -webkit-text-fill-color:#fff;
+  -webkit-text-fill-color: #fff;
   margin-right: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 30px;
 }
 
-.projects-icon:hover{
-  -webkit-text-fill-color:#242424;
+.projects-icon:hover {
+  -webkit-text-fill-color: #242424;
 }
 
 .skill__info {
@@ -198,11 +198,11 @@ h1 {
 }
 
 .html {
-  background-color: #F06529;
+  background-color: #f06529;
 }
 
 .mt {
-  background-color: #EF9A9A;
+  background-color: #ef9a9a;
 }
 
 .css {
@@ -218,11 +218,15 @@ h1 {
 }
 
 .aws {
-  background-color: #EFBD69;
+  background-color: #efbd69;
 }
 
 .hk {
-  background-color: #6762A6;
+  background-color: #6762a6;
+}
+
+.fa-external-link-alt {
+  font-size: 27px;
 }
 
 @media only screen and (min-width: 1200px) {

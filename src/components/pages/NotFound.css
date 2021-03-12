@@ -11,10 +11,12 @@
   font-size: 30px;
   padding: 5px;
   margin: 10px;
+  text-align: center;
 }
 
 .NotFound > p {
   font-size: 20px;
+  text-align: center;
 }
 
 .error-btns {
