@@ -27,6 +27,8 @@ function CardProjects() {
                 <span className="skill js">JavaScript</span>
                 <span className="skill html">HTML</span>
                 <span className="skill css">CSS</span>
+                <span className="skill dk">Docker</span>
+                <span className="skill gcp">Google Cloud Platform</span>
               </div>
             </CardProjectItem>
           </ul>
