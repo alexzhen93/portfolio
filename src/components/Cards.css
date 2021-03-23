@@ -225,6 +225,14 @@ h1 {
   background-color: #6762a6;
 }
 
+.dk{
+  background-color: #0db7ed;
+}
+
+.gcp{
+  background: linear-gradient(110deg, #4285f4 25%, #ea4335 25% 50%, #fbbc05 50% 75%, #34a853 75%);
+}
+
 .fa-external-link-alt {
   font-size: 27px;
 }
