@@ -49,12 +49,11 @@ function About() {
             </ul>
             <br />
             <em className="em_p">A little more about me:</em>
-            <br />I was born and raised in Venezuela. Before coming to the
-            United States, I studied in China for a few years. This allows me to
-            gain a deeper understanding of different cultures and a new global
-            perspective on cultural and social values. Besides coding, I enjoy
-            playing various sports in my free time. During the summer, I play
-            competitive
+            <br />
+            I was born and raised in Venezuela. Before coming to the
+            United States, I studied in China for a few years. I like to learn
+            about different cultural and social values. Away from the keyboards,
+            I enjoy playing
             <a
               className="nine-man"
               href="https://www.9-man.com"
@@ -63,9 +62,10 @@ function About() {
             >
               <em> 9-man </em>
             </a>
-            volleyball.
+            volleyball, cooking, and petting my dogs.
             <br />
-            <br />I am passionate about learning new things and expanding my
+            <br />
+            I am passionate about learning new things and expanding my
             knowledge. In my opinion, learning is an important aspect of life.
             If you wish to learn more about me, feel free to reach out and
             connect. Thank you for visiting my site!
