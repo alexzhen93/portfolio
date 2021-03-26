@@ -40,9 +40,22 @@ h1 {
   margin: 0 2rem;
   border-radius: 10px;
   transition: all 0.2s linear;
+  width: 25rem;
+}
+
+.cards__project__item {
+  display: flex;
+  flex: 1;
+  margin: 0 2rem;
+  border-radius: 10px;
+  transition: all 0.2s linear;
 }
 
 .cards__item:hover {
+  transform: scale(1.1);
+}
+
+.cards__project__item:hover {
   transform: scale(1.1);
 }
 
