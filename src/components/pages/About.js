@@ -36,9 +36,8 @@ function About() {
             <br />
             <em className="em_p">Work experience:</em>
             <br />
-            I currently don't have any experience in the software engineer
-            industry, but I'm willing to learn and take my skills to the next
-            level.
+            I currently don't have experience in the software engineer industry,
+            but I'm willing to learn and take my skills to the next level.
             <br />
             <br />
             <em className="em_p">
@@ -50,9 +49,12 @@ function About() {
             </ul>
             <br />
             <em className="em_p">A little more about me:</em>
-            <br />I was born and raised in Venezuela, went to China to study for
-            four years then came to the United States in 2010. Besides coding
-            during my free time, I love to play
+            <br />I was born and raised in Venezuela. Before coming to the
+            United States, I studied in China for a few years. This allows me to
+            gain a deeper understanding of different cultures and a new global
+            perspective on cultural and social values. Besides coding, I enjoy
+            playing various sports in my free time. During the summer, I play
+            competitive
             <a
               className="nine-man"
               href="https://www.9-man.com"
@@ -61,10 +63,12 @@ function About() {
             >
               <em> 9-man </em>
             </a>
-            volleyball, especially during the summer. I'm also really passionate
-            about learning new things. I think that learning is one of the most
-            important aspects of life. If you wish to learn more about me, feel
-            free to reach out and connect. Thanks for visiting my site!
+            volleyball.
+            <br />
+            <br />I am passionate about learning new things and expanding my
+            knowledge. In my opinion, learning is an important aspect of life.
+            If you wish to learn more about me, feel free to reach out and
+            connect. Thank you for visiting my site!
           </p>
         </div>
         <div className="quote__wrapper">
@@ -73,7 +77,7 @@ function About() {
               "Wisdom is not a product of schooling but of the lifelong attempt
               to acquire it."
             </blockquote>
-            <figure className="source">—  Albert Einstein</figure>
+            <figure className="source">— Albert Einstein</figure>
           </figure>
         </div>
       </div>
