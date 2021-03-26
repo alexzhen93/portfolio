@@ -14,17 +14,15 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={Alex}
-              text={`Hi, my name is Alex.
-                        \nLearn more detail about me  
-                        `}
+              text={`A little about me. 
+              \nLearn more detail here `}
               label="About"
               path="/About"
             />
             <CardItem
               src={Projects}
               text={`A glance of my projects. 
-                        \nLearn more detail about the projects
-                        `}
+              \nLearn more detail about the projects`}
               label="Projects"
               path="/Project"
             />

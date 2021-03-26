@@ -3,7 +3,7 @@ import React from "react";
 function CardProjectItem(props) {
   return (
     <>
-      <li className="cards__item">
+      <li className="cards__project__item">
         <div className="cards__item__link">
           <div className="projects__item__pic-wrap" data-category={props.label}>
             <img
