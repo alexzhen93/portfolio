@@ -10,6 +10,7 @@
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
+  min-height: 75vh;
 }
 
 .about__wrapper {
@@ -17,7 +18,7 @@
   display: block;
   margin: 50px 0 45px;
   align-self: center;
-  max-width: 700px;
+  max-width: 61%;
 }
 
 .responsive {
