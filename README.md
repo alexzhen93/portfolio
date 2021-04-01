@@ -33,7 +33,7 @@ After it is done installing
 ```
 
 ## website
-Take a look at https://alexjpzhen.com/ ! 
+Take a look at https://alexjpzhen.com/
 
 ### Frontend
 * React
