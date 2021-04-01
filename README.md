@@ -2,7 +2,7 @@
 A site built with React,  JavaScript,  HTML,  and CSS to showcase all my projects, expressing my passion for learning new technologies and connecting with people.
 
 ## Installation
-A step by step guide on running the application locally
+A step by step guide on running the application locally. Make sure you install npm before starting.
 
 ```
 1. Download the zip folder and unzip the contents of the portfolio folder
