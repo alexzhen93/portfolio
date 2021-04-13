@@ -24,8 +24,8 @@ function About() {
           <p>
             <em className="em_p">Introduction:</em>
             <br />
-            Hello! My name Jia Peng Zhen, or you can just call me Alex. I aspire
-            to become a software engineer and web developer
+            Hello! My name is Jia Peng Zhen, but you can just call me Alex. I
+            aspire to become a software engineer and a web developer.
             <br />
             <br />
             <em className="em_p">Education:</em>
@@ -36,8 +36,9 @@ function About() {
             <br />
             <em className="em_p">Work experience:</em>
             <br />
-            I currently don't have experience in the software engineer industry,
-            but I'm willing to learn and take my skills to the next level.
+            I am a recent college graduate looking to get work experience in the
+            software engineering industry. I am willing to learn and take my
+            skills to the next level.
             <br />
             <br />
             <em className="em_p">
@@ -49,11 +50,10 @@ function About() {
             </ul>
             <br />
             <em className="em_p">A little more about me:</em>
-            <br />
-            I was born and raised in Venezuela. Before coming to the
+            <br />I was born and raised in Venezuela. Before coming to the
             United States, I studied in China for a few years. I like to learn
-            about different cultural and social values. Away from the keyboards,
-            I enjoy playing
+            about different cultural and social values, which has shaped me into
+            the person I am today. I enjoy playing
             <a
               className="nine-man"
               href="https://www.9-man.com"
@@ -64,8 +64,7 @@ function About() {
             </a>
             volleyball, cooking, and petting my dogs.
             <br />
-            <br />
-            I am passionate about learning new things and expanding my
+            <br />I am passionate about learning new things and expanding my
             knowledge. In my opinion, learning is an important aspect of life.
             If you wish to learn more about me, feel free to reach out and
             connect. Thank you for visiting my site!
