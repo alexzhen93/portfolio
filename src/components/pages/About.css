@@ -1,0 +1,78 @@
+.about {
+  padding: 2rem;
+  background: #fff;
+}
+
+.about__container {
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  min-height: 75vh;
+}
+
+.about__wrapper {
+  position: relative;
+  display: block;
+  margin: 50px 0 45px;
+  align-self: center;
+  max-width: 61%;
+}
+
+.responsive {
+  position: relative;
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.nine-man {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.em_p {
+  font-weight: bolder;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  overflow: hidden;
+  list-style: none;
+}
+
+.skills-list > li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.skills-list > li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+}
+
+.quote__wrapper{
+  position: relative;
+  align-self: center;
+}
+
+.quote {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  color: gray;
+}
+
+.source {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  color: gray;
+  text-align: end;
+}

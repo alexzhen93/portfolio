@@ -17,8 +17,8 @@ function CardProjects() {
             <CardProjectItem
               src={azProject}
               title="Personal website"
-              text={`A site build with React,  JavaScript,  HTML,  and CSS to showcase all my projects, expressing my passion
-              \nfor learning new technology and connecting with people.`}
+              text={`A site built with React,  JavaScript,  HTML,  and CSS to showcase all my projects,
+              \nexpressing my passion for learning new technologies and connecting with people.`}
               label="Portfolio"
               github="https://github.com/alexzhen93/Portfolio"
             >
@@ -27,6 +27,8 @@ function CardProjects() {
                 <span className="skill js">JavaScript</span>
                 <span className="skill html">HTML</span>
                 <span className="skill css">CSS</span>
+                <span className="skill dk">Docker</span>
+                <span className="skill gcp">Google Cloud Platform</span>
               </div>
             </CardProjectItem>
           </ul>
@@ -34,12 +36,13 @@ function CardProjects() {
             <CardProjectItem
               src={FindLoveNow}
               title="FindLoveNow"
-              text={`A collaborative group project to create a dating web application for users to find matches based on user
-              \nset locations. FindLoveNow allows users to upload and delete images, customize their matching preferences
-              \nor use a blind match system for a blind date, and users able to chat and video call with match users.`}
+              text={`A collaborative group project to create a dating web application for users to find 
+              \nmatches based on user's set location. FindLoveNow allows users to upload and delete  
+              \nimages,  customize their matching preferences or use a blind match system for a blind
+              \ndate,  and users able to chat and video call with match users.`}
               label="FindLoveNow"
               path="fas fa-external-link-alt"
-              href="https://findlovenow.xyz"
+              href="http://findlovenow.xyz"
               github="https://github.com/Fall-2020-Website-Design/FindLoveNow"
             >
               <div className="skill__info">
@@ -71,11 +74,12 @@ function CardProjects() {
             <CardProjectItem
               src={SplitIt}
               title="Split-It"
-              text={`A group collaborative project to create a bill splitting web application that allows users to 
-              \nsplit bills using their smartphone camera or by inputting the information necessary. The web app also 
-              \nuses third-party API such as Google Map API and Tesseract OCR API,  a machine learning optical character
-              \nrecognition engine. Split-It also has other social functions like adding friends,  depositing virtual 
-              \ncurrency (dummy currency),  and customizing personal settings.`}
+              text={`A group collaborative project to create a bill splitting web application that allows  
+              \nusers to split bills using their smartphone camera or by inputting the information
+              \nnecessary. The web app also uses third-party API such as Google Map API and 
+              \nTesseract OCR API,  OCR API,  a machine learning optical character recognition engine.    
+              \nSplit-It also has other social functions like adding friends,  depositing virtual currency 
+              \n(dummy currency),  and customizing personal settings.`}
               path="fas fa-external-link-alt"
               href="https://app-split-it.herokuapp.com"
               github="https://github.com/Skill-Knowledge-Technology/Split-It"
@@ -95,8 +99,9 @@ function CardProjects() {
             <CardProjectItem
               src={WeatherApp}
               title="Weather-App"
-              text={`A simple weather application that is both web and mobile-friendly, use to check all the information about
-              \nthe weather. The site uses a third-party API to analyze and forecast the weather by zip-code,  city,  or State.`}
+              text={`A simple weather application that is both web and mobile-friendly, use to check all 
+              \nthe information about the weather. The site uses a third-party API to analyze and 
+              \nforecast the weather by zip-code,  city,  or State.`}
               path="fas fa-external-link-alt"
               href="https://weather-app-az.herokuapp.com"
               github="https://github.com/alexzhen93/Weather-App"

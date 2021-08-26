@@ -29,7 +29,7 @@ function Footer() {
               icon="fab fa-github-square"
             />
             <FooterIcon
-              href="https://www.linkedin.com/in/jia-peng-zhen-6455a1170/"
+              href="https://www.linkedin.com/in/alexjpzhen/"
               label="LinkedIn"
               icon="fab fa-linkedin"
             />
@@ -49,7 +49,7 @@ function Footer() {
           offset={-100}
           duration={500}
         >
-          <img className="rocket" src={Rocket} />
+          <img className="rocket" src={Rocket} alt="rocket"/>
         </Link1>
         <small className="website-rights">Go to top</small>
         <small className="website-rights">Alex Zhen © 2021</small>
