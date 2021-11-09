@@ -6,6 +6,8 @@ import "./About.css";
 const skills = [
   "React",
   "JavaScript",
+  "Angular",
+  "TypeScript",
   "Node.js",
   "Python",
   "HTML",
@@ -36,9 +38,11 @@ function About() {
             <br />
             <em className="em_p">Work experience:</em>
             <br />
-            I am a recent college graduate looking to get work experience in the
-            software engineering industry. I am willing to learn and take my
-            skills to the next level.
+            I participated in a career experience at Apple Inc. as a web 
+            application developer, where I built new features using Angular,
+            TypeScript, Node.Js, HTML, and CSS to to help visualize internal 
+            component metrics, providing a higher level of understanding for 
+            the organization.
             <br />
             <br />
             <em className="em_p">

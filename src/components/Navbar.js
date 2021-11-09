@@ -5,6 +5,7 @@ import Alex from "./Alex";
 import { Button } from "./Button";
 import AlexIcon from "../components/images/Alex Icon White.png";
 import Resume from "./pages/Resume.pdf";
+import Recommendation from "./pages/Recommendation.pdf";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -69,6 +70,18 @@ function Navbar() {
               >
                 Projects
               </NavLink>
+            </li>
+            <li className="nav-item">
+              <Link
+                to={Recommendation}
+                className="nav-links"
+                activeClassName="active"
+                onClick={closeMobileMenu}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Recommendation
+              </Link>
             </li>
           </ul>
 
