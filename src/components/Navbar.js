@@ -5,7 +5,6 @@ import Alex from "./Alex";
 import { Button } from "./Button";
 import AlexIcon from "../components/images/Alex Icon White.png";
 import Resume from "./pages/Resume.pdf";
-import Recommendation from "./pages/Recommendation.pdf";
 
 function Navbar() {
   const [click, setClick] = useState(false);
