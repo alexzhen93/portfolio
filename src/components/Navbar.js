@@ -71,18 +71,6 @@ function Navbar() {
                 Projects
               </NavLink>
             </li>
-            <li className="nav-item">
-              <Link
-                to={Recommendation}
-                className="nav-links"
-                activeClassName="active"
-                onClick={closeMobileMenu}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Recommendation
-              </Link>
-            </li>
           </ul>
 
           {button && (
