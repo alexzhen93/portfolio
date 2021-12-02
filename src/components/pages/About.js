@@ -40,7 +40,7 @@ function About() {
             <br />
             I participated in a career experience at Apple Inc. as a web 
             application developer, where I built new features using Angular,
-            TypeScript, Node.Js, HTML, and CSS to to help visualize internal 
+            TypeScript, Node.Js, HTML, and CSS to help visualize internal 
             component metrics, providing a higher level of understanding for 
             the organization.
             <br />
