@@ -38,11 +38,11 @@ function About() {
             <br />
             <em className="em_p">Work experience:</em>
             <br />
-            I participated in a career experience at Apple Inc. as a web 
+            I participated in a career experience at Apple Inc. as a web
             application developer, where I built new features using Angular,
-            TypeScript, Node.Js, HTML, and CSS to to help visualize internal 
-            component metrics, providing a higher level of understanding for 
-            the organization.
+            TypeScript, Node.Js, HTML, and CSS to help visualize internal
+            component metrics, providing a higher level of understanding for the
+            organization.
             <br />
             <br />
             <em className="em_p">
